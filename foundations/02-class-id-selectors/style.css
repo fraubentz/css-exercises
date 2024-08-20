@@ -1,0 +1,19 @@
+.cool {
+    background-color:rgb(255, 127, 127);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+div#two {
+    color: rgb(42, 27, 255);
+    font-size: 36px;
+}
+
+div#four {
+    background-color: rgb(131, 218, 128);
+    font-size: 24px;
+    font-weight: 700;
+}
