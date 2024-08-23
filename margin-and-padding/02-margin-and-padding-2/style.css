@@ -1,27 +1,48 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
   background: #fff;
+  /* Center the whole card on the screen */
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /* Provide gap between each of the blue sections of the card */
+  margin-bottom: 8px;
+  /* Space between title text and the edge of the title section */
+  padding: 8px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  /* Provide gap between each of the blue sections of the card */
+  margin-bottom: 8px;
+  /* Space top-bottom and space on either side, respectively */
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  /* For good measure... center everything, items plus text */
+  align-items: center;
+  text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  text-align: center;
+  /* Center the object within the parent container, which in this case is the button-container */
+  margin: 0px auto; 
+  padding: 8px 24px;
 }
